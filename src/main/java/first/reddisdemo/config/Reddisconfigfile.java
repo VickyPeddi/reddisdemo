@@ -12,6 +12,8 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 @Configuration
 public class Reddisconfigfile
 {
+
+//this is redis config file
     @Bean
     public JedisConnectionFactory connectionFactory(){
         RedisStandaloneConfiguration standaloneConfiguration = new RedisStandaloneConfiguration();
